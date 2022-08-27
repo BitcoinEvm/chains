@@ -616,6 +616,7 @@
 }, {
   "name": "Dxchain Mainnet",
   "chain": "Dxchain",
+  "icon": "dx",
   "rpc": ["https://mainnet.dxchain.com"],
   "faucets": [],
   "nativeCurrency": {
@@ -3975,6 +3976,48 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Ultron Testnet",
+  "chain": "Ultron",
+  "icon": "ultron",
+  "rpc": ["https://ultron-dev.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ultron",
+    "symbol": "ULX",
+    "decimals": 18
+  },
+  "infoURL": "https://ultron.foundation",
+  "shortName": "Ultron Testnet",
+  "chainId": 1230,
+  "networkId": 1230,
+  "explorers": [{
+    "name": "Ultron Testnet Explorer",
+    "url": "https://explorer.ultron-dev.io",
+    "icon": "ultron",
+    "standard": "none"
+  }]
+}, {
+  "name": "Ultron Mainnet",
+  "chain": "Ultron",
+  "icon": "ultron",
+  "rpc": ["https://ultron-rpc.net"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ultron",
+    "symbol": "ULX",
+    "decimals": 18
+  },
+  "infoURL": "https://ultron.foundation",
+  "shortName": "Utron Mainnet",
+  "chainId": 1231,
+  "networkId": 1231,
+  "explorers": [{
+    "name": "Ultron Explorer",
+    "url": "https://ulxscan.com",
+    "icon": "ultron",
+    "standard": "none"
+  }]
+}, {
   "name": "OM Platform Mainnet",
   "chain": "omplatform",
   "network": "mainnet",
@@ -4100,8 +4143,27 @@
   "chainId": 1288,
   "networkId": 1288
 }, {
-  "name": "Boba Network Bobabase",
-  "chain": "Bobabase",
+  "name": "Boba Network Bobabeam",
+  "chain": "Bobabeam",
+  "rpc": ["https://bobabeam.boba.network", "wss://wss.bobabeam.boba.network", "https://replica.bobabeam.boba.network", "wss://replica-wss.bobabeam.boba.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Boba Token",
+    "symbol": "BOBA",
+    "decimals": 18
+  },
+  "infoURL": "https://boba.network",
+  "shortName": "Bobabeam",
+  "chainId": 1294,
+  "networkId": 1294,
+  "explorers": [{
+    "name": "Bobabeam block explorer",
+    "url": "https://blockexplorer.bobabeam.boba.network",
+    "standard": "none"
+  }]
+}, {
+  "name": "Boba Network Bobabase Testnet",
+  "chain": "Bobabase Testnet",
   "rpc": ["https://bobabase.boba.network", "wss://wss.bobabase.boba.network", "https://replica.bobabase.boba.network", "wss://replica-wss.bobabase.boba.network"],
   "faucets": [],
   "nativeCurrency": {
@@ -4114,7 +4176,7 @@
   "chainId": 1297,
   "networkId": 1297,
   "explorers": [{
-    "name": "Blockscout",
+    "name": "Bobabase block explorer",
     "url": "https://blockexplorer.bobabase.boba.network",
     "standard": "none"
   }]
@@ -5136,7 +5198,7 @@
   "chainId": 4051,
   "networkId": 4051,
   "explorers": [{
-    "name": "Blockscout",
+    "name": "Bobaopera Testnet block explorer",
     "url": "https://blockexplorer.testnet.bobaopera.boba.network",
     "standard": "none"
   }]
@@ -5182,6 +5244,25 @@
     "name": "PHI Explorer",
     "url": "https://explorer.phi.network",
     "icon": "phi",
+    "standard": "none"
+  }]
+}, {
+  "name": "Boba Network Bobafuji Testnet",
+  "chain": "Bobafuji Testnet",
+  "rpc": ["https://testnet.avax.boba.network", "wss://wss.testnet.avax.boba.network", "https://replica.testnet.avax.boba.network", "wss://replica-wss.testnet.avax.boba.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Boba Token",
+    "symbol": "BOBA",
+    "decimals": 18
+  },
+  "infoURL": "https://boba.network",
+  "shortName": "Bobafuji Testnet",
+  "chainId": 4328,
+  "networkId": 4328,
+  "explorers": [{
+    "name": "Bobafuji Testnet block explorer",
+    "url": "https://blockexplorer.testnet.avax.boba.network",
     "standard": "none"
   }]
 }, {
@@ -5296,6 +5377,21 @@
   "shortName": "es",
   "chainId": 5197,
   "networkId": 5197
+}, {
+  "name": "Humanode Mainnet",
+  "chain": "HMND",
+  "rpc": [],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "HMND",
+    "symbol": "HMND",
+    "decimals": 18
+  },
+  "infoURL": "https://humanode.io",
+  "shortName": "hmnd",
+  "chainId": 5234,
+  "networkId": 5234,
+  "explorers": []
 }, {
   "name": "Uzmi Network Mainnet",
   "chain": "UZMI",
@@ -5885,6 +5981,25 @@
     "standard": "none"
   }]
 }, {
+  "name": "Boba Network BNB Testnet",
+  "chain": "Boba BNB Testnet",
+  "rpc": ["https://testnet.bnb.boba.network", "wss://wss.testnet.bnb.boba.network", "https://replica.testnet.bnb.boba.network", "wss://replica-wss.testnet.bnb.boba.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Boba Token",
+    "symbol": "BOBA",
+    "decimals": 18
+  },
+  "infoURL": "https://boba.network",
+  "shortName": "Boba BNB Testnet",
+  "chainId": 9728,
+  "networkId": 9728,
+  "explorers": [{
+    "name": "Boba BNB Testnet block explorer",
+    "url": "https://blockexplorer.testnet.bnb.boba.network",
+    "standard": "none"
+  }]
+}, {
   "name": "myOwn Testnet",
   "chain": "myOwn",
   "rpc": ["https://geth.dev.bccloud.net"],
@@ -5940,7 +6055,12 @@
   "infoURL": "",
   "shortName": "gon",
   "chainId": 10024,
-  "networkId": 10024
+  "networkId": 10024,
+  "explorers": [{
+    "name": "Gon Explorer",
+    "url": "https://gonscan.com",
+    "standard": "none"
+  }]
 }, {
   "name": "Blockchain Genesis Mainnet",
   "chain": "GEN",
@@ -8051,6 +8171,28 @@
   "shortName": "olympus",
   "chainId": 333999,
   "networkId": 333999
+}, {
+  "name": "Kekchain",
+  "chain": "kek",
+  "network": "testnet",
+  "rpc": ["https://testnet.kekchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "KEK",
+    "symbol": "KEK",
+    "decimals": 18
+  },
+  "infoURL": "https://kekchain.com",
+  "shortName": "KEK",
+  "chainId": 420666,
+  "networkId": 1,
+  "icon": "kek",
+  "explorers": [{
+    "name": "blockscout",
+    "url": "https://testnet-explorer.kekchain.com",
+    "icon": "kek",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Arbitrum Rinkeby",
   "title": "Arbitrum Testnet Rinkeby",
